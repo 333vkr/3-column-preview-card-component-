@@ -1,0 +1,56 @@
+.attribution { font-size: 11px; text-align: center; width: 90vw;}
+.attribution a { color: hsl(228, 45%, 44%); }
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+body{
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9375rem;
+  margin:0;
+}
+h1{
+   font-family: 'Big Shoulders Display', cursive;
+   color: hsl(0, 0%, 95%);
+}
+.row{
+  margin:9% 3%;
+  position: relative;
+  border-radius: 16px;
+
+}
+.row p{
+  width: 82%;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+.col{
+  padding: 32px;
+}
+.col button{
+  background-color:hsl(0, 0%, 95%);
+  border: none;
+  width: 136px;
+  height: 40px;
+  border-radius:32px;
+  margin: 16px 0;
+}
+.col-1{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 16px 16px 0 0;
+}
+.col-1 button{
+  color:  hsl(31, 77%, 52%);
+}
+.col-2{
+  background-color: hsl(184, 100%, 22%);
+}
+.col-2 button{
+  color:  hsl(184, 100%, 22%);
+}
+.col-3{
+  background-color: hsl(179, 100%, 13%);
+  border-radius:0 0 16px 16px;
+}
+.col-3 button{
+  color:   hsl(179, 100%, 13%);
+}
